@@ -1,7 +1,14 @@
 h1, h2, p {
   text-align: center;
 }
-/*body{background-color: burlywood}*/
-#menu{ width:300px;
+
+body{
+background-image: url(top-view-roasted-coffee-beans-scattered-from-wooden-bowl-coffee-beans-background.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;}
+
+
+.menu{ width:300px;
   background-color: burlywood;
 }
