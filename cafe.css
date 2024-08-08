@@ -4,11 +4,30 @@ h1, h2, p {
 
 body{
 background-image: url(top-view-roasted-coffee-beans-scattered-from-wooden-bowl-coffee-beans-background.jpg);
+background-size: auto;
 background-position: center;
-background-size: cover;
 background-repeat: no-repeat;}
 
-
-.menu{ width:300px;
+.menu {
+  width: 80%;
   background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.item p {
+  display: inline-block;
+}
+
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+  width: 25%
 }
